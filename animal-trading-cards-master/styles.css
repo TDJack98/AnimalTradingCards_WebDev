@@ -1,0 +1,41 @@
+/* add your CSS here */
+ul li span {
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /* setting margin and padding to zero shifts the list back to the left*/
+}
+
+h3{
+  margin-top: 0.5em;
+}
+
+img {
+  left-margin: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  border: 1px solid silver;
+  padding: 0.5em;
+  width: 300px;
+  box-shadow: 10px 10px 10px silver;
+  font-family: "Times New Roman", serif;
+  background-color: lightblue;
+}
+
+.information {
+  border: 1px solid silver;
+  width: 282px; /*since we have padding on both sides, we have 1em in total
+  which equals 16px. As we have a border of 1px on each side we have in total 18px.
+  So 300-18=282*/
+  padding: 0.5em;
+  background-color: #99ccff;
+}
+
+.fact{
+  font-style:italic;
+}
